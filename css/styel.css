@@ -1,0 +1,121 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: Almarai;
+}
+body
+{
+    background-color: #12012B;
+}
+img
+{
+    width: 100%;
+    height: 100%;
+}
+.img_box .box_active
+{
+    width: 70%;
+    height: 550px;
+    background-color: aliceblue;
+    margin: 30px;
+    position: relative;
+}
+.box_active .ali_img
+{
+    position: absolute;
+    width:100%;
+    height:100%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.background
+{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.493) 0%, rgba(0,0,0,1) 100%);
+}
+.titels
+{
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    left: 15%;
+    margin: 17px;
+    font-size: 50px;
+    text-align: right;
+}
+.texts
+{
+    position: absolute;
+    top: 30%;
+    font-size: 40px ;
+    text-align: right;
+    color: #FFEE00;
+    margin: 17px;
+    line-height: 73px;
+}
+.but
+{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 3px solid #FFEE00;
+    border-radius: 25px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #FFEE00;
+    font-size: 22px;
+}
+
+.box_active .ali_img.actives
+{
+    opacity: 1;
+}
+ul
+{
+    width: 250px;
+    height: 550px;
+    position: absolute;
+    top: 5%;
+    left: 77%;
+    list-style: none;
+    padding: 0px;
+}
+ul li
+{
+
+    width: 100%;
+    height:25%;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    margin: 5px auto;
+    
+}
+ul li .acticon
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -102%;
+    background-image: url('/img/halmet.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ul li.actli
+{
+    border: 5px solid #FFEE00;; 
+}
+ul li .actimg
+{
+    filter: blur(2px);
+}
+
+
